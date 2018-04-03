@@ -6,9 +6,38 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  socialLinks = [
+    {
+      type: 'linkedin',
+      link: 'https://linkedin.com/in/uurtsaikh'
+    },
+    {
+      type: 'github',
+      link: 'https://github.com/uurtsaikhb'
+    },
+    {
+      type: 'facebook',
+      link: 'https://facebook.com/uurtsaikha'
+    },
+    {
+      type: 'twitter',
+      link: 'https://twitter.com/uuree'
+    },
+    {
+      type: 'youtube',
+      link: 'https://www.youtube.com/channel/UCjoWQdDMkbU-7tXaVvajxqg/videos'
+    }
+  ];
 
   onClickNavbarIcon(link) {
     window.open(link);
+  }
+
+  returnClassName(type) {
+    if (type) {
+      return 'fa-' + type;
+    }
+
+    return null;
   }
 }
