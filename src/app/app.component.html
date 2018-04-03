@@ -28,19 +28,24 @@
       </li>
     </ul>
     <ul class="navbar-nav nav-flex-icons">
-      <li class="nav-item waves-light" mdbRippleRadius>
+      <li class="nav-item waves-light" mdbRippleRadius (click)="onClickNavbarIcon('https://github.com/uurtsaikhb')">
+        <a class="nav-link">
+          <i class="fa fa-github"></i>
+        </a>
+      </li>
+      <li class="nav-item waves-light" mdbRippleRadius (click)="onClickNavbarIcon('https://facebook.com/uurtsaikha')">
         <a class="nav-link">
           <i class="fa fa-facebook"></i>
         </a>
       </li>
-      <li class="nav-item waves-light" mdbRippleRadius>
+      <li class="nav-item waves-light" mdbRippleRadius (click)="onClickNavbarIcon('https://twitter.com/uuree')">
         <a class="nav-link">
           <i class="fa fa-twitter"></i>
         </a>
       </li>
-      <li class="nav-item waves-light" mdbRippleRadius>
+      <li class="nav-item waves-light" mdbRippleRadius (click)="onClickNavbarIcon('https://www.youtube.com/channel/UCjoWQdDMkbU-7tXaVvajxqg/videos')">
         <a class="nav-link">
-          <i class="fa fa-instagram"></i>
+          <i class="fa fa-youtube"></i>
         </a>
       </li>
     </ul>
