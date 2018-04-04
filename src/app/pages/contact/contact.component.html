@@ -1,3 +1,71 @@
-<agm-map class="z-depth-1-half map-container" style="height: 400px;" [latitude]="lat" [longitude]="lng" [zoom]='zoom' [styles]='style'>
-  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
-</agm-map>
+<section class="section text-center">
+
+  <h3 class="h1 py-5 section-title animated fadeIn">
+    CONTACT ME
+  </h3>
+
+  <p class="section-description">Get in touch with me?</p>
+
+  <div class="row">
+
+    <div class="col-md-4 contact animated slideInLeft">
+      <div class="pt-3">
+        <div class="container">
+
+          <div class="mb-5">
+            <h3>Contact information</h3>
+          </div>
+
+          <div class="contact-info pr-10 pl-10">
+            <div class="contact-info-item">
+              <i class="fa fa-map-marker"></i>
+              <p>Seattle, Washington USA</p>
+            </div>
+
+            <div class="contact-info-item">
+              <i class="fa fa-phone"></i>
+              <p>(469) 955-8225</p>
+            </div>
+
+            <div class="contact-info-item">
+              <i class="fa fa-envelope"></i>
+              <p>uurtsaikh.ba@gmail.com</p>
+            </div>
+          </div>
+
+
+          <hr class="hr-dark mb-4 mt-4">
+
+          <ul class="inline-ul social-icon text-center list-unstyled">
+            <li (click)="onClickSocialIcon('https://twitter.com/uuree')">
+              <a class="icons-sm">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li (click)="onClickSocialIcon('https://linkedin.com/in/uurtsaikh')">
+              <a class="icons-sm li-ic">
+                <i class="fa fa-linkedin"> </i>
+              </a>
+            </li>
+            <li (click)="onClickSocialIcon('https://facebook.com/uurtsaikha')">
+              <a class="icons-sm ins-ic">
+                <i class="fa fa-facebook"> </i>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-8 map animated slideInRight">
+      <agm-map class="z-depth-1-half map-container" style="height: 400px;" [latitude]="lat" [longitude]="lng" [zoom]='zoom' [styles]='style'>
+        <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+      </agm-map>
+    </div>
+  </div>
+
+
+
+
+</section>

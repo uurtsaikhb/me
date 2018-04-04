@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
-import { AmgCoreModule, AgmCoreModule } from '@agm/core';
+import { AgmCoreModule } from '@agm/core';
 
 import { AppComponent } from './app.component';
 import { AboutMeComponent } from './pages/about-me/about-me.component';

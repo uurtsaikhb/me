@@ -1,0 +1,40 @@
+.contact {
+  background: #212121;
+  padding: 0;
+}
+
+.map {
+  padding: 0;
+}
+
+.contact-info {
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.contact-info-item {
+  i {
+    width: 40px;
+    font-size: 22px;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+
+  p {
+    display: inline-block;
+  }
+}
+
+.social-icon {
+  i {
+    font-size: 26px;
+    padding: 0 10px;
+  }
+
+  li {
+    &:hover {
+      color: white;
+    }
+  }
+}
