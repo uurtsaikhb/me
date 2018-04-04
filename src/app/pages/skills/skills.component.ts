@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent implements OnInit {
+  skills = [
+    {
+      language: 'Javascript',
+      percentage: 90
+    }
+  ];
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
