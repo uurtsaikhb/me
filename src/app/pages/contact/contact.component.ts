@@ -177,4 +177,8 @@ export class ContactComponent implements OnInit {
   onClickSocialIcon(link) {
     window.open(link);
   }
+
+  onClickDownload() {
+    window.open('assets/Resume - Uurtsaikh Batbileg.pdf');
+  }
 }
