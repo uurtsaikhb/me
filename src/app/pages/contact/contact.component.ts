@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.scss']
 })
 export class ContactComponent implements OnInit {
-  zoom = 14;
+  zoom = 13;
   lat = 47.61582;
   lng = -122.338421;
   style = [
@@ -176,5 +176,9 @@ export class ContactComponent implements OnInit {
 
   onClickSocialIcon(link) {
     window.open(link);
+  }
+
+  onClickDownload() {
+    window.open('assets/Resume - Uurtsaikh Batbileg.pdf');
   }
 }
