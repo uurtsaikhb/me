@@ -13,4 +13,4 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build and Deploy to Github page.
 
-Run `ng build --prod --base-href 'http://uurtsaikh.com/'` to production build the project with base directory. Then run `ngh` to deploy `dist/` directory into Github page. Check `http://uurtsaikh.com` to see if changes made to prod.
+Run `ng build --prod --base-href 'http://uurtsaikh.com/'` to production build the project with base directory. Then run `ngh` to deploy `dist/` directory into Github page. Check http://uurtsaikh.com to see if changes made to prod.
