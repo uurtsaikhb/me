@@ -26,6 +26,10 @@ export class AppComponent {
     {
       type: 'youtube',
       link: 'https://www.youtube.com/channel/UCjoWQdDMkbU-7tXaVvajxqg/videos'
+    },
+    {
+      type: 'file-pdf-o',
+      link: 'http://localhost:4200/assets/Resume - Uurtsaikh Batbileg.pdf'
     }
   ];
 

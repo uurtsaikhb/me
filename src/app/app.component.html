@@ -1,36 +1,60 @@
-<mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark elegant-color-dark scrolling-navbar ie-nav" [containerInside]="true">
+<mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark elegant-color-dark scrolling-navbar ie-nav"
+            [containerInside]="true">
   <logo>
-    <a class="logo navbar-brand" href="#">
+    <a class="logo navbar-brand"
+       href="#">
       <strong>UURTSAIKH BATBILEG</strong>
     </a>
   </logo>
   <links>
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item waves-light" routerLinkActive='active' mdbRippleRadius>
-        <a routerLink='/about' class="nav-link">About me
+      <li class="nav-item waves-light"
+          routerLinkActive='active'
+          mdbRippleRadius>
+        <a routerLink='/about'
+           class="nav-link">About me
         </a>
       </li>
-      <li class="nav-item waves-light" routerLinkActive='active' mdbRippleRadius>
-        <a routerLink='/experience' class="nav-link">Experience
+      <li class="nav-item waves-light"
+          routerLinkActive='active'
+          mdbRippleRadius>
+        <a routerLink='/experience'
+           class="nav-link">Experience
         </a>
       </li>
-      <li class="nav-item waves-light" routerLinkActive='active' mdbRippleRadius>
-        <a routerLink='/skills' class="nav-link">Skills</a>
+      <li class="nav-item waves-light"
+          routerLinkActive='active'
+          mdbRippleRadius>
+        <a routerLink='/skills'
+           class="nav-link">Skills</a>
       </li>
-      <li class="nav-item waves-light" routerLinkActive='active' mdbRippleRadius>
-        <a routerLink='/projects' class="nav-link">Projects</a>
+      <li class="nav-item waves-light"
+          routerLinkActive='active'
+          mdbRippleRadius>
+        <a routerLink='/projects'
+           class="nav-link">Projects</a>
       </li>
-      <li class="nav-item waves-light" routerLinkActive='active' mdbRippleRadius>
-        <a routerLink='/education' class="nav-link">Education</a>
+      <li class="nav-item waves-light"
+          routerLinkActive='active'
+          mdbRippleRadius>
+        <a routerLink='/education'
+           class="nav-link">Education</a>
       </li>
-      <li class="nav-item waves-light" routerLinkActive='active' mdbRippleRadius>
-        <a routerLink='/contact' class="nav-link">Contact me</a>
+      <li class="nav-item waves-light"
+          routerLinkActive='active'
+          mdbRippleRadius>
+        <a routerLink='/contact'
+           class="nav-link">Contact me</a>
       </li>
     </ul>
     <ul class="navbar-nav nav-flex-icons">
-      <li class="nav-item waves-light" mdbRippleRadius *ngFor="let item of socialLinks" (click)="onClickNavbarIcon(item.link)">
+      <li class="nav-item waves-light"
+          mdbRippleRadius
+          *ngFor="let item of socialLinks"
+          (click)="onClickNavbarIcon(item.link)">
         <a class="nav-link">
-          <i class="fa" [ngClass]='returnClassName(item.type)'></i>
+          <i class="fa"
+             [ngClass]='returnClassName(item.type)'></i>
         </a>
       </li>
     </ul>
