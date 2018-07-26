@@ -29,7 +29,7 @@ export class AppComponent {
     },
     {
       type: 'file-pdf-o',
-      link: 'http://localhost:4200/assets/Resume - Uurtsaikh Batbileg.pdf'
+      link: 'http://uurtsaikh.com/assets/Resume - Uurtsaikh Batbileg.pdf'
     }
   ];
 
